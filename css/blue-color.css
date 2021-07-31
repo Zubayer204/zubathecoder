@@ -83,3 +83,11 @@ blockquote {
 
 .blog-page .blog-heading .cat {
   color: #00A3E1; }
+
+.customlink{
+  color: #00A3E1;
+}
+
+.customlink:hover {
+  color: #00b9ff;
+}
