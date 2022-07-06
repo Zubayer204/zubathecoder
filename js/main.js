@@ -32,7 +32,7 @@ $(window).on('load', function() {
     }
 
     /*======== Blogs Masonry Setup ========*/
-    $('.blogs-masonry').isotope({ layoutMode: 'moduloColumns' });
+    // $('.blogs-masonry').isotope({ layoutMode: 'moduloColumns' });
 
     $('#video-container video').attr('playsinline', '');
     $('#video-container video').attr('controls', '');
@@ -46,11 +46,11 @@ $(document).ready(function() {
     "use strict";
 
 
-    /*======== SimpleBar Setup ========*/
-    $('.pt-page').each(function() {
-        var $id = '#' + $(this).attr('id');
-        new SimpleBar($($id)[0]);
-    });
+    // /*======== SimpleBar Setup ========*/
+    // $('.pt-page').each(function() {
+    //     var $id = '#' + $(this).attr('id');
+    //     new SimpleBar($($id)[0]);
+    // });
 
     /*======== Fitty Setup ========*/
     fitty('.header-name', {
