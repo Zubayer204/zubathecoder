@@ -7,7 +7,7 @@
   padding: 0;
   margin: 0;
   text-decoration: none !important;
-  list-style: none !important;
+  /* list-style: none !important; */
   outline: none !important; }
 
 h1,
@@ -1392,6 +1392,44 @@ header .header-mobile {
       .blog-page .blog-comments .comment-list .comment .comment-text p {
         color: #fff;
         font-size: 15px; }
+
+
+/* =========== My CSS ============================= */
+
+.primary-image {
+  display: block;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.primary-image-container {
+  background-color: #282829;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  border-radius: 10px;
+}
+
+.primary-image-container h2{
+  margin-top: 10px;
+  font-family: 'Finlandica', sans-serif;
+}
+
+.ranking {
+  margin-top: 20px;
+}
+
+.ranking ol {
+  margin-left: 3em;
+}
+
+.ranking h2{
+  font-family: 'Finlandica', sans-serif;
+}
+
+/* =========== My CSS ============================= */
 
 /*============ 12. Mobile Responsive Css ============*/
 @media screen and (max-width: 991px) {
