@@ -58,6 +58,11 @@ a:hover,
 a:focus {
   color: inherit; }
 
+@font-face {
+  font-family: 'Finlandica';
+  src: url('Finlandica-Regular.ttf') format('truetype');
+}
+
 /*********** Margin & Padding ***********/
 .mt-0 {
   margin-top: 0 !important; }
