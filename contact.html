@@ -32,37 +32,22 @@
         <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+        <link rel="shortcut icon" type="image/jpg" href="img/icon/favicon.ico"/>
         <link rel="manifest" href="img/icon/site.webmanifest">
 
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id=GTM-T7P825D'+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-T7P825D');</script>
-            <!-- End Google Tag Manager -->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDKXTBKGT4"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LDKXTBKGT4');
+        </script>
 
     </head>
 
     <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7P825D"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-            <!-- End Google Tag Manager (noscript) -->
-        <!--Preloader Start-->
-        <!-- <div class="preloader">
-            <div class="loader">
-                <h4>Zubayer Rahaman</h4>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div> -->
-        <!--Preloader End-->
 
         <div id="page">
 
@@ -81,7 +66,7 @@
                         <div class="image-container">
                             <h2 class="header-name">Zubayer Rahaman</h2>
 <!--                             <img src="img/male-avatar.jpg" alt="profile-pic"> -->
-                            <img src="img/new_photo_small.webp" alt="profile-pic">
+                            <img src="img/new_photo_small.webp" alt="Zubayer Rahaman's Image">
                         </div>
 
                         <!--Nav Menus-->
@@ -138,7 +123,7 @@
                                 </div>
 
                                 <!--Form Start-->
-                                <form id="contact-form" method="post" action="https://Rahaman-vcard.netlify.app/mail.php">
+                                <form id="contact-form">
                                     <div class="row">
 
 
@@ -166,11 +151,12 @@
                                             </span>
                                         </div>
 
-                                        <!-- <div class="alert-container col-md-12">Success!</div> -->
+                                        <div class="alert-container col-md-12"></div>
 
                                         <!--Submit Button-->
                                         <div class="col-md-12 text-center">
                                             <button id="cf-submit" class="btn-main">Send Message</button>
+                                            <!-- <button id="cf-submit" class="btn-main" onclick="return send_mail(event)">Send Message</button> -->
                                         </div>
 
 
@@ -221,6 +207,36 @@
         <script src="js/main.js"></script>
 
         <script src="js/particles.min.js"></script>
+
+        <!--Plugins JS-->
+        <script src="js/plugins.min.js"></script>
+
+        <!-- <script>
+
+            async function send_mail(e){
+                e.prevenDefault();
+
+                let email = document.getElementById("cf-email");
+                let name = document.getElementById("cf-name");
+                let msg = document.getElementById("cf-message");
+
+                let url = `https://us-central1-zubayer-learning.cloudfunctions.net/sendgrid?email=${email}&name=${name}&msg=${msg}`;
+
+                let myHeaders = new Headers();
+                myHeaders.append("Content-Type", "application/json");
+
+                let requestOptions = {
+                    method: 'GET',
+                    headers: myHeaders,
+                };
+
+                let rawResponse = await fetch(url, requestOptions);
+                let result = await rawResponse.text();
+
+                console.log(result);
+            }
+
+        </script> -->
 
     </body>
 

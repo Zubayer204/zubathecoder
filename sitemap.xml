@@ -1,42 +1,69 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<?xml version="1.0" encoding="UTF-8"?> 
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
 <url>
-  <loc>https://www.zubayer.one/</loc>
-  <lastmod>2022-07-07T03:31:33+00:00</lastmod>
-  <priority>1.00</priority>
+  <loc>http://www.zubayer.one/index.html</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
 </url>
 <url>
-  <loc>https://www.zubayer.one/index.html</loc>
-  <lastmod>2022-07-07T03:31:33+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://www.zubayer.one/about.html</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
 </url>
 <url>
-  <loc>https://www.zubayer.one/about.html</loc>
-  <lastmod>2022-07-07T03:31:33+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://www.zubayer.one/resume.html</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
 </url>
 <url>
-  <loc>https://www.zubayer.one/resume.html</loc>
-  <lastmod>2022-07-07T03:31:34+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://www.zubayer.one/portfolio.html</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
 </url>
 <url>
-  <loc>https://www.zubayer.one/portfolio.html</loc>
-  <lastmod>2022-07-07T03:31:34+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://www.zubayer.one/contact.html</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
 </url>
 <url>
-  <loc>https://www.zubayer.one/contact.html</loc>
-  <lastmod>2022-07-07T03:31:33+00:00</lastmod>
-  <priority>0.80</priority>
+  <loc>http://www.zubayer.one/img/portfolio/img-1.jpg</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
 </url>
-
-
+<url>
+  <loc>http://www.zubayer.one/single-work.html</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
+</url>
+<url>
+  <loc>http://www.zubayer.one/img/portfolio/img-4.jpg</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
+</url>
+<url>
+  <loc>http://www.zubayer.one/img/portfolio/img-7.jpg</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
+</url>
+<url>
+  <loc>http://www.zubayer.one/img/portfolio/img-8.jpg</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
+</url>
+<url>
+  <loc>http://www.zubayer.one/img/portfolio/img-10.jpg</loc>
+  <priority>1.0</priority>
+  <changefreq>daily</changefreq>
+  <lastmod>2022-07-07</lastmod>
+</url>
 </urlset>

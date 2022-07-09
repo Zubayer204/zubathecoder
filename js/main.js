@@ -279,7 +279,7 @@ function contactFormSetup() {
 
     $('#contact-form').on('submit', function(e) {
         e.preventDefault();
-        var name = $('#cf-name').val(),
+        let name = $('#cf-name').val(),
             email = $('#cf-email').val(),
             message = $('#cf-message').val(),
             $messageBox = $('#contact-form .message'),
@@ -300,20 +300,16 @@ function contactFormSetup() {
             }
         });
         if( required === 0 ) {
+            let url = `https://us-central1-zubayer-learning.cloudfunctions.net/sendgrid?email=${email}&name=${name}&msg=${message}`;
             $.ajax({
-                type: 'POST',
-                url: 'mail.php',
-                data: {
-                    cf_name: name,
-                    cf_email: email,
-                    cf_message: message
-                },
+                type: 'GET',
+                url: url,
                 success: function(data) {
                     $("#contact-form .input__field").val("");
-                    showAlertBox(data.status, data.responseText);
+                    showAlertBox(data.status, "Successfully sent mail!");
                 },
                 error: function(data) {
-                    showAlertBox(data.status, data.responseText);
+                    showAlertBox(data.status, "There was an error. Please send a mail to zubayer.skd@gmail.com to report this");
                 }
             });
         }
@@ -325,7 +321,7 @@ function contactFormSetup() {
 function showAlertBox(response, message) {
     var $alertBox = $('<div class="alert"></div>'),
         $alContainer = $('#contact-form .alert-container');
-    if( response == 200 ) {
+    if( response == 202 ) {
         $alertBox.addClass('alert-success').html(message);
         $alContainer.html($alertBox);
     } else {
