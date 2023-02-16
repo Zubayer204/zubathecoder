@@ -1,226 +1,114 @@
 <!DOCTYPE html>
-<html lang="en" data-random-animation="false" data-animation="19">
-    
-    <head>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="zubayer, Zubayer Rahaman, Zubayer rahman, Sakib, Sakib Sikder, zubater">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">
+	<title>Zubayer</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container">	
+		<div id ="all">
+			<a id="header">Zubayer Rahman</a>
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="about.html">About me</a>
+			  <a href="softwares.html">Softwares</a>
+			  <a href="edu.html">Classes at home</a>
+			  <div class="dropdown">
+		  		<button onclick="dropdown()" class="dropbtn">explore more!</button>
+		  		<div id="myDropdown" class="dropdown-content">
+		    		<a href="https://www.tutoriaslpoint.com">Tutorialspoint</a>
+		    		<a href="https://www.w3schools.com">w3schools</a>
+		    		<a href="#">This is Special</a>
+		 		</div>
+			</div>
+			</div>
+			<span id="icon" onclick="openNav()">&#9776;</span>
+		</div>
 
-        <!--Meta Tags-->
-        <meta charset="utf-8">
-        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="keywords" content="" />
-        <meta name="author" content="Zubayer Rahaman" />
+		<div class="flex-container">
+			<div style="flex-grow: 1;font-size: 30px;background-color: #f1f1f1;color: red">
+				<p id="disclaimer">
+					Disclaimer
+				</p>
+			</div>
+			<div style="flex-grow: 9; font-size: 20px; background-color: #5fd555">
+				<marquee onmouseout="this.start();" onmouseover="this.stop();" direction="left" scrollamount="4" align="center">
+					In this hazardous moment of the world, our civilization is at breaking point. All this is happening just for the bloody "Corona virus". We have to stay home and keep our hands clean to get rid of this virus. Stay home, Stay safe and pray to the creator to mercy us. 
+				</marquee>
+			</div>
+		</div>
 
-        <!-- Meta for seo -->
-        <meta name="keywords" content="zubayer freelancer, freelancer zubayer rahaman, zubayer rahaman bangladeshi freelancer, zubayer resume, personal, zubayer portfolio, zubayer cv, zubayer rahaman card, responsive, zubayer, rahaman, zubayer rahaman" />
-        <meta name="description" content="Zubayer Rahaman is a Bangladeshi teenage freelancer based on Python Software Development. Through his hard work and determination, he earned prefered freelancer badge which is given to only top 1% of freelancers. This is Zubayer Rahman's personal portfolio site." />
-        <meta name="author" content="Zubayer Rahaman" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="article" />
-        <meta property="og:title" content="Zubayer Rahaman | Freelancer | Portfolio" />
-        <meta property="og:description" content="Zubayer Rahaman is a Bangladeshi teenage freelancer based on Python Software Development. Through his hard work and determination, he earned [&hellip;]" />
-        <meta property="og:url" content="https://zubayer.one/" />
-        <meta property="og:site_name" content="ZUBAYER RAHAMAN" />
-        <meta property="article:modified_time" content="2022-07-08T11:29:29+00:00" />
-        <meta property="og:image" content="https://zubayer.one/img/zubayer-rahaman-1659x2094.webp" />
-        <meta property="og:image:width" content="1659" />
-        <meta property="og:image:height" content="2094" />
-        <meta property="og:image:type" content="image/webp" />
-        <meta property="og:image:alt" content="Zubayer Rahaman - Best programmer - Freelancer" />
-        <meta name="twitter:card" content="summary_large_image"/>
-        <meta name="twitter:site" content="@zubayer_rahaman"/>
-        <meta name="twitter:creator" content="@zubayer_rahaman"/>
-        <meta name="twitter:label1" content="Est. reading time" />
-        <meta name="twitter:data1" content="1 minute" />
-        <!-- Meta for seo -->
+		<img src="zubayer.webp" class="img">
+		<p id="z">Hey, it's me!</p>
 
-        <!--Page Title-->
-        <title>Zubayer Rahaman</title>
+		<p class="para" id="p1">Hello! there. I am <a class="x" href="https://quranicnames.com/zubair/">
+			<i>Zubayer Rahman</i>
 
-        <!--Plugins Css-->
-        <link rel="stylesheet" href="css/plugins.css">
-        <!--Main Styles Css-->
-        <link rel="stylesheet" href="css/style-dark.css">
+		</a>reading at class 10 in <a class="x" href="http://smmodelgovt.edu.bd/">
+			<abbr><i>S.M. Model Govt. High school.</i></abbr>
+		</a>
+		 This is the first website I made. So give me best wishes. <a href="about.html">Know more about me!</a></p>
 
-        <link rel="stylesheet" href="css/style-demo.css">
+		<p class="para" id="p2">The world is moving on. Everything is changing towards IT. Corona virus has stopped everything but couldn't stop the IT lovers. Teachers are taking online classes using IT. They are choosing many ways for communicating with students. Heads of to them!
+			<a href="edu.html" class="x">
+				Tap or click here
+			</a>
+			 to see what our school teachers are doing!!</p>
 
-        <!--Color Css-->
-        <link class="site-color" rel="stylesheet" href="css/blue-color.css">
+		<h2 class="headertwo">About our school</h2>
+		<p>
+			The name of our school is S.M. Model Govt. High School. It is situated in the heart of gopalganj. It is adjacent to Court Mosque. It was founded in the middle age of 1900s. It always keeps it first rank in district. Our school is pride. All teachers of this school encourage us much for studying. In the shade of our respectable teachers, many students have established there carrier by taking jobs in many reputative places.
+		</p>
+		<h2 class="headertwo" style="border-bottom: 1px solid rgb(244,124,252)">
+			Top articles:
+		</h2>
 
-        <!--Modernizr Js-->
-        <script src="js/modernizr.js"></script>
+		<div class="article">
+			<div class="content">
+				<h2>
+		   			Top 5 things you can do in this leisure!
+				</h2>
+				<p class="cop">Got a very very big leisure? Wanna know what to do in this time? You are in the right place! Now we will discuss some terms what we can do in this leisure that will help us to build a good carrier. I know some of will waste this time by just chatting in the social media and some of you will just watch funny YouTube videos. Stop wasting your time! Time is so much valuable that you even can’t think! Now you can ask me,”Hey Zubayer, you are stopping us from wasting time. So what can we do sitting at home?” Calm down my friend, I am telling this now. So here are some things:</p><span id="dots">.....</span><div id="more">
+				<h3>1.Learn Programming</h3>
+				<p class="cop">The first thing is learning programming. This is the age of IT. This is the age of computer science. At this time, the most on demand skill is Computer Programming. What is computer programming? Computer programming is the method of communicating to the computer. In real world, we communicate through many languages. Like that, there are many languages to communicate with computers. Which language should I learn first? As a computer programmer I recommend you to learn Python. Because Python is the most beginner friendly language. If you don’t know a single topic about computers, again you can continue with Python. Python has a big community who can help you any time. There is a website named cpbook.subeen.com where you can learn python in bangle. If you are looking for some English eBook “Byte of Python” is the best. What can we do by learning programming? You won’t believe! You can work in Google! In Google, they take just a mini test, no educational qualification required!</p>
+				<h3>2.Learn Web Development</h3>
+				<p class="cop">This is fun one! If you are fond of designing and like math, this is only for you! What is Web Development? Web Development means creations of websites. By learning Web Development, I made this nice looking website all by myself. Can we earn through Web Development? Yes, you can! There are plenty of freelancing jobs outside there. However you can also earn when sleeping! By Web Development if you make a blog, you can give Google Adds and earn even in sleeping. There are some language you must learn for Web Developing. Such as HTML (Hyper Text Markup Language), CSS (Cascading Style Sheet), JavaScript, Node.js, React.js, DOM (Document Object Manipulation), Bootstrap, JQuery, PHP (Hypertext Preprocessor) and some more! Thinking that this is so many. Trust me you don’t have to learn and memorize everything. If you are stuck in some where Google uncle is there. As my own commitment, the best website for learning Web Development is www.w3schools.com .But I suggest to have a course on Web Development. A Bengali guy named Freelancer Nasim has taken place in top ten freelancers in the world. He is giving many courses on YouTube. There are huge free courses on YouTube. Hope you will enjoy it!</p>
+				<h3>3.Graphics Design</h3>
+				<p class="cop">This amazing thing will like all of you. Graphics design is very popular on these days. In every part of IT, Graphics design is needed. With Graphics design, you can do from photo editing to logo creation. In these days there is a lot of freelancing jobs just for photo editing! You can get a good amount of money by photo editing! The popular software for graphics design is Adobe Photoshop cs. Start learning from today!</p>
+				<h3>4.Android App Development</h3>
+				<p class="cop">I know some of you are smiling and thinking that after all those rubbish talking I have come to the right topic. Yes, this is just for you if you like apps! App is the short form of Application. Android is an operating system and android app is the application which can be ran on android. In this new age of mobile phones, there is a huge demand of android apps. For app development you must learn Android Studio, XML and Kotlin programming language. Yes, it is so simple. “Android Cookbook” is the best android tutorial eBook. But I prefer to get a course. Be an app developer.</p>
+				<h3>5.Artificial Intellegence</h3>
+				<p class="cop">Probably, at this time the most talked topic is AI (Artificial Intelligence). Man is searching peace and leisure. All these can be retrieved by AI. This black horse can do all our works just like us! This why, this is called AI. Deep Learning, Machine Learning is a part of AI. With AI you can do all your staff artificially. You must acquire the knowledge of assembly programming language. Get started from now!</p></div><button onclick="myFunction()" id="myBtn">Read more</button>
+			</div>
+		</div>
 
-        <!--Favicons-->
-        <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
-        <link rel="shortcut icon" type="image/jpg" href="img/icon/favicon.ico"/>
-        <link rel="manifest" href="img/icon/site.webmanifest">
+		<div class="article">
+			<div class="content">
+				<h2>
+		   			Softwares made by me!
+				</h2>
+				   <p class="cop">
+				   	  Yes, I have made softwares! The most interesting part is: it is not by any drag and drop application. I made it using <a href="www.python.org">python</a>. Python is a very powerful programing language. It is used in almost all areas of programing. So, I made several softwares using it. I had sooo much fun making. Some of them are listed below:
+				   	  .....<a href="softwares.html">more</a>
+				   </p>
+			</div>
+		</div>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LDKXTBKGT4"></script>
-        <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+		<p>Total visitor:</p>
+	<div id="sfcw6ez2dtaz7c6nebykyk1z1f1xl48laxl"></div>
+	<script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=w6ez2dtaz7c6nebykyk1z1f1xl48laxl&down=async" async></script>
+	<noscript><a href="https://www.freecounterstat.com" title="web counter"><img src="https://counter3.stat.ovh/private/freecounterstat.php?c=w6ez2dtaz7c6nebykyk1z1f1xl48laxl" border="0" title="web counter" alt="web counter"></a></noscript>
 
-        gtag('config', 'G-LDKXTBKGT4');
-        </script>
-
-    </head>
-
-    <body>
-
-        <div id="page">
-
-            <!--Header Start-->
-            <header>
-                <div class="header-content">
-
-                    <!--Mobile Header-->
-                    <div class="header-mobile">
-                        <a class="header-toggle"><i class="fas fa-bars"></i></a>
-                        <h2>Zubayer Rahaman</h2>
-                    </div>
-
-                    <!--Main Header-->
-                    <div class="header-main" data-simplebar id="breadcrumb">
-                        <div class="image-container">
-                            <h2 class="header-name">Zubayer Rahaman</h2>
-<!--                             <img src="img/male-avatar.jpg" alt="profile-pic"> -->
-                            <img src="img/zubayer-rahaman.webp" alt="Zubayer Rahaman's Image">
-                        </div>
-
-                        <!--Nav Menus-->
-                        <nav class="nav-menu">
-                            <ul>
-                                <li><a href="index.html" class="pt-link active"><span class="nav-menu-icon"><i class="lnr lnr-home"></i></span>Home </a> </li>
-                                <li><a href="about.html" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-user"></i></span>About Me</a></li>
-                                <li><a href="resume.html" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-license"></i></span>Resume</a></li>
-                                <li><a href="portfolio.html" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-briefcase"></i></span>Portfolio</a></li>
-                                <!-- <li><a href="#blog" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-book"></i></span>Blog</a></li> -->
-                                <li><a href="contact.html" class="pt-link"><span class="nav-menu-icon"><i class="lnr lnr-envelope"></i></span>Contact</a></li>
-                            </ul>
-                        </nav>
-
-                        <!--Nav Footer-->
-                        <div class="nav-footer">
-                            <!--Social Links-->
-                            <ul class="social">
-                                <!-- <li><a href="https://codeforces.com/profile/Zubayerskd"><i class="fa-solid fa-code"></i></a></li> -->
-                                <li><a href="https://www.facebook.com/zubayer.rahman.39589/"><i class="fab fa-facebook-square"></i></a></li>
-                                <li><a href="https://twitter.com/zubayer_rahaman"><i class="fab fa-twitter-square"></i></a></li>
-                                <li><a href="https://www.instagram.com/zubayer204/"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                            <!--Copyright Text-->
-                            <div class="copy">
-                                <p>2022 &copy; Zubayer Rahaman<br>All Right Reserved.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </header>
-            <!--Header End-->
-
-
-            <!--Main Start-->
-            <div id="main" class="site-main">
-
-                <!--Banner Section Start-->
-                <section id="home" class="banner-section pt-page page-active" style="background-image: url('img/background/home-bg.jpg')">
-
-                    <div id="particles-js"></div>
-
-                    <div class="banner-content">
-                        <!--Banner Text-->
-                        <h1 class="mb-20">Zubayer <span>Rahaman</span></h1>
-
-                        <!--Animated Text-->
-                        <p class="cd-headline clip is-full-width">
-                        <span>I'm a </span>
-                        <span class="cd-words-wrapper">
-                            <b class="is-visible">Python Programmer</b>
-                            <b>Django Developer</b>
-                            <b>Curious Learner</b>
-                            <b>Freelancer</b>
-                            <b>Student</b>
-                        </span>
-                        </p>
-
-                    </div>
-
-                </section>
-                <!--Banner Section End-->
-
-            </div>
-            <!--Main End-->
-
-        </div>
-
-        <!--Jquery JS-->
-        <script src="js/jquery.min.js"></script>
-        <!--Plugins JS-->
-        <script src="js/plugins.min.js"></script>
-        <!--Site Main JS-->
-        <script src="js/main.js"></script>
-
-        <!-- <script src="js/main-demo.js"></script> -->
-
-        <script src="js/particles.min.js"></script>
-
-        <script>
-            //Particles
-            particlesJS.load('particles-js', 'js/particles.json', function() {
-                console.log('callback - particles.js config loaded');
-            });
-        </script>
-        
-        <script type="module">
-
-  // Import the functions you need from the SDKs you need
-
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
-
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
-
-  // TODO: Add SDKs for Firebase products that you want to use
-
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-
-  // Your web app's Firebase configuration
-
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
-  const firebaseConfig = {
-
-    apiKey: "AIzaSyAC3Lfq7WrSqZCHuU4o-7mwH_OuTrygPbU",
-
-    authDomain: "zubayer-c2567.firebaseapp.com",
-
-    projectId: "zubayer-c2567",
-
-    storageBucket: "zubayer-c2567.appspot.com",
-
-    messagingSenderId: "50654982357",
-
-    appId: "1:50654982357:web:149bd525e7658dfde3f25c",
-
-    measurementId: "G-QGN2Z9LF6G"
-
-  };
-
-
-  // Initialize Firebase
-
-  const app = initializeApp(firebaseConfig);
-
-  const analytics = getAnalytics(app);
-
-</script>
-
-    </body>
-
+	
+	</div>
+</body>
 </html>
-
